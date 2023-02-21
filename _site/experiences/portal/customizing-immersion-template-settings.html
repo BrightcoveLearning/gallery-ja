@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="robots" content="noindex,nofollow"> 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="This topic provides an overview of the Agenda module which is used to manage the event agenda and speakers for a Virtual Event Experience.">
+  <meta name="description" content="このトピックでは、Immersion テンプレートの設定をカスタマイズする方法について説明します。">
   
-  <title>アジェンダモジュールの入門</title>
+  <title>Immersion テンプレート設定のカスタマイズ</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -53,9 +53,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       
       <li class="breadcrumb-item first-item"><a href="/">ホーム</a></li>
         
-      <li class="breadcrumb-item"><a href="/experiences/virtual-event/">Virtual Event</a></li>
+      <li class="breadcrumb-item"><a href="/experiences/portal/">Portal</a></li>
       
-      <li class="breadcrumb-item active" aria-current="page">アジェンダモジュールの入門</li>
+      <li class="breadcrumb-item active" aria-current="page">Immersion テンプレート設定のカスタマイズ</li>
     </ol>
   </nav>
 </header> <div class="container">
@@ -411,29 +411,53 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 </details>
 <!-- open in new tab/window -->
 <a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="open in new tab" style="margin-top:4em;width: 1.5em;"></a>  <article class="bcls-article">
-  <h1>アジェンダモジュール入門</h1>
-  <summary>This topic provides an overview of the Agenda module which is used to manage the event agenda and speakers for a Virtual Event Experience.</summary>
+  <h1>Immersion テンプレート設定のカスタマイズ</h1>
+  <summary>このトピックでは、Immersion テンプレートの設定をカスタマイズする方法について説明します。</summary>
   <section class="bcls-section">
-    <p>アジェンダモジュールにアクセスするには、仮想イベントエクスペリエンスをクリックしてギャラリーサイトエディタを開き、[ <strong>サイトの機能] &gt; [議題] の順にクリックします</strong>。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/virtual-event/agenda-module-home.png" /></figure>
-    <p>ホームページから以下を行うことができます。</p>
+    <p>Immersion テンプレートを使用してポータル エクスペリエンスを作成する場合、いくつかのテンプレート固有の設定を構成することができます。Immersion テンプレートの設定を構成するには、以下の手順になります:</p>
+    <ol class="bcls-tasklist-restart">
+      <li>エクスペリエンスを編集します。</li>
+      <li>左側のナビゲーションで <strong>外観と動作 &gt; テンプレート設定</strong> をクリックします。
+        <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/templates/immersion/template-settings.png" /></figure>
+      </li>
+    </ol>
+    <p>以下の設定が可能です:</p>
     <ul>
-      <li><a href="#upload_agenda">イベントの議題をアップロードする</a></li>
-      <li><a href="#manage_agenda">イベントの議題を管理する</a></li>
-      <li><a href="#speakers">イベントスピーカーを管理する</a> </li>
+      <li><a href="#hero">ヒーロースライダー</a></li>
+      <li><a href="#thumbnails">サムネイル</a></li>
     </ul>
-    アジェンダモジュールからギャラリーサイトエディタに戻るには、ページの左側にある [ <strong>マイイベントに戻る]</strong>リンクをクリックします。</section>
-  <section class="bcls-section">
-    <h2 id="upload_agenda">イベントアジェンダのアップロード</h2>
-    <p>イベントアジェンダを最初に作成するには、アジェンダ.csvファイルをアップロードする必要があります。イベント議題のアップロードについては、「<a href="managing-agenda-virtual-event-experience.html#upload">議題ファイルのアップロード」を参照してください</a>。</p>
   </section>
   <section class="bcls-section">
-    <h2 id="manage_agenda">イベントアジェンダの管理</h2>
-    <p>イベントの議題を編集するには、それをクリックして、必要に応じて変更を加えます。詳細については、「<a href="managing-agenda-virtual-event-experience.html">イベントアジェンダの管理」を参照してください</a>。</p>
-  </section>
+    <h2 id="hero">ヒーロースライダーの設定</h2>
+    <p><strong>ヒーロースライダー</strong> の設定は、ヒーロー動画(ページの最上部に表示される動画)の外観を制御します。<strong>表示情報</strong> の設定は、ヒーローカルセールの動画サムネイルに表示される動画のメタデータを制御します。表示できる項目は、次の通りです:</p>
+    <ul>
+      <li>タイトル</li>
+      <li>動画の長さ</li>
+      <li>説明</li>
+      <li>関連リンク</li>
+    </ul>
+    <p><strong>形式</strong> の設定は、ビデオのメタデータの表示方法を制御します:</p>
+    <ul>
+      <li>画像のオーバーレイ</li>
+      <li>画像下の情報</li>
+    </ul>
+    <strong>グラデーションのある影</strong> を有効にすると、ヒーロー画像にグラデーションが追加されます (白いテキストを読みやすくする効果があります)。</section>
   <section class="bcls-section">
-    <h2 id="speakers">イベントスピーカーの管理</h2>
-    <p>イベントに関連付けられているスピーカーを管理するには、をクリックします<strong>スピーカー</strong>左側のナビゲーションで。スピーカーの管理については、<a href="managing-event-speakers.html">イベントスピーカーの管理を参照してください</a>。</p>
+    <h2 id="thumbnails">サムネイルの設定</h2>
+    <p><strong>デフォルトの表示情報</strong> の設定は、ヒーロースライダーの下にある動画サムネイルの表示方法を制御します。表示できる項目は以下の通りです:</p>
+    <ul>
+      <li>タイトル</li>
+      <li>動画の長さ</li>
+    </ul>
+    <p><strong>ホバー時の詳細展開</strong> は、視聴者がビデオのサムネイルにカーソルを合わせた時のサムネイルの表示方法を制御する設定です:</p>
+    <ul>
+      <li><strong>詳細カードの展開</strong> - ホバー時に動画のサムネイルを大きく表示し、以下のフィールドも表示可能です:
+        <ul>
+          <li>説明</li>
+          <li>関連リンク</li>
+        </ul>
+      </li>
+    </ul>
   </section>
 </article> <!-- complete bootstrap layout -->
     </div>
@@ -450,7 +474,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  ページの最終更新日03 Oct 2021
+  ページの最終更新日21 Feb 2023
 </div>
 
 

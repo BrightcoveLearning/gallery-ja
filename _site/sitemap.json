@@ -250,6 +250,11 @@
   },
 
   {
+      "newURL": "https://ja.gallery.support.brightcove.com/experiences/portal/customizing-immersion-template-settings.html",
+      "oldURL": "/customizing-immersion-template-settings"
+  },
+
+  {
       "newURL": "https://ja.gallery.support.brightcove.com/experiences/live/customizing-live-event-portal-settings.html",
       "oldURL": "/customizing-live-event-portal-settings"
   },
@@ -375,7 +380,7 @@
   },
 
   {
-      "newURL": "https://ja.gallery.support.brightcove.com/",
+      "newURL": "https://ja.gallery.support.brightcove.com/experiences/live/",
       "oldURL": "/index"
   },
 
@@ -390,17 +395,22 @@
   },
 
   {
-      "newURL": "https://ja.gallery.support.brightcove.com/get-started/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://ja.gallery.support.brightcove.com/experiences/portal/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://ja.gallery.support.brightcove.com/experiences/inpage/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://ja.gallery.support.brightcove.com/get-started/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://ja.gallery.support.brightcove.com/experiences/virtual-event/",
       "oldURL": "/index"
   },
 
@@ -415,12 +425,7 @@
   },
 
   {
-      "newURL": "https://ja.gallery.support.brightcove.com/develop/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://ja.gallery.support.brightcove.com/experiences/virtual-event/",
+      "newURL": "https://ja.gallery.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -430,7 +435,7 @@
   },
 
   {
-      "newURL": "https://ja.gallery.support.brightcove.com/experiences/live/",
+      "newURL": "https://ja.gallery.support.brightcove.com/develop/",
       "oldURL": "/index"
   },
 
@@ -707,6 +712,11 @@
   {
       "newURL": "https://ja.gallery.support.brightcove.com/experiences/virtual-event/working-static-content.html",
       "oldURL": "/working-static-content"
+  },
+
+  {
+      "newURL": "https://ja.gallery.support.brightcove.com/experiences/portal/working-with-immersion-template.html",
+      "oldURL": "/working-with-immersion-template"
   },
 ]
 

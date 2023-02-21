@@ -88,6 +88,10 @@
           url: /experiences/portal/previewing-and-publishing-portal-experience.html
         - name: ギャラリーテンプレートの更新
           url: /experiences/portal/updating-gallery-templates.html
+        - name: Immersion テンプレート設定のカスタマイズ
+          url: /experiences/portal/customizing-immersion-template-settings.html
+        - name: 'Immersion ポータル テンプレートの操作'
+          url: /experiences/portal/working-with-immersion-template.html
         - name: リードフォームの使用
           url: /experiences/portal/using-lead-form-portal-experience.html         
         - name: カスタムフォントを使用する
