@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="In this topic you will learn how to customize the site features for a Portal Experience.">
+  <meta name="description" content="このトピックでは、ポータル エクスペリエンス用にサイト機能をカスタマイズする方法について学びます。">
   
   <title>ポータル・エクスペリエンスのサイト機能のカスタマイズ</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -423,40 +423,64 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 <!-- open in new tab/window -->
 <a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="open in new tab" style="margin-top:4em;width: 1.5em;"></a>  <article class="bcls-article">
   <h1>ポータルエクスペリエンスのサイト機能のカスタマイズ</h1>
-  <summary>In this topic you will learn how to customize the site features for a Portal Experience.</summary>
+  <summary>このトピックでは、ポータル エクスペリエンス用にサイト機能をカスタマイズする方法について学びます。</summary>
   <section class="bcls-section">
-    <p>ポータルエクスペリエンスのサイト機能を構成するには、エクスペリエンスを編集して[ <strong>サイトの機能</strong>左側のナビゲーションで。次の設定を使用できます。</p>
+    <p>ポータル エクスペリエンスのサイト機能を設定するには、エクスペリエンスを編集して 左側のナビゲーションで <strong>サイトの機能</strong> をクリックします。利用可能な設定は、使用されているテンプレートに基づいています。</p>
     <ul>
       <li><a href="#search">サイト検索</a> -サイト検索を有効にする</li>
       <li><a href="#social">ソーシャル</a> -ビデオ共有を構成し、接続を維持するオプション</li>
       <li><a href="#comments">コメント</a> -コメントを有効にする</li>
+      <li><a href="#agenda">アジェンダ</a> - Virtual Event エクスペリエンスのアジェンダの作成</li> 
+      <li><a href="#sponsors">スポンサー</a> - Virtual Event エクスペリエンスのスポンサーの追加</li> 
     </ul>
   </section>
   <section class="bcls-section">
     <h2 id="search">サイト検索の設定</h2>
-    <p>[ <strong>サイト検索</strong> ] 設定を使用すると、サイトの検索を有効にできます。サイト検索設定にアクセスするには、をクリックします<strong>サイトの機能&gt;サイト検索</strong>左側のナビゲーションで。<strong>[サイト検索を有効にする] をオンにすると</strong>、サイト上に検索フィールドが表示され、視聴者は動画コンテンツに対する検索を実行できます。動画名、短い説明、長い説明、タグが検索されます。デフォルトでは、検索が有効な場合、Video Cloud アカウント内のすべての動画が検索されます。検索は、ギャラリーエクスペリエンスに表示される動画だけに限定されません。</p>
+    <p><strong>サイト検索</strong>設定では、サイトの検索を有効にすることができます。サイト検索設定にアクセスするには、左側のナビゲーションで<strong>サイト機能 &gt; サイト検索</strong>をクリックします。<strong>サイト検索を有効にする</strong>にチェックを入れると、サイトに検索フィールドが表示され、視聴者は動画コンテンツに対して検索を実行できるようになります。動画名、短い説明、長い説明、タグが検索対象となることに注意してください。デフォルトでは、検索が有効になっている場合、Video Cloudアカウント内のすべての動画が検索対象となります。検索は Gallery エクスペリエンスに表示される動画だけに限定されていません。</p> 
     <p>検索時に返される動画を制限するには、次のオプションがあります。</p>
     <ul>
-      <li><strong>タグを含める</strong> -検索ボックスに入力した検索語と一致し、このタグでタグ付けされている動画のみが検索されます（単一のタグのみがサポートされています）。</li>
-      <li><strong>タグを除外</strong> -このタグを含む動画は検索結果の一部として返されません（サポートされているタグは1つだけです）</li>
-      <li>[ <strong>ビデオセキュリティ</strong> ] 設定を有効にする-ビデオセキュリティは、ビデオ設定の一部として有効にすることができます。有効にすると、コレクション内の動画のみが検索されます（検索では、スマートプレイリストまたはカスタム検索を使用してコレクションに追加された動画のみが返されます）。詳細については、「<a href="customizing-video-settings-portal-experience.html">ポータルエクスペリエンスのビデオ設定のカスタマイズ</a>」を参照してください。</li>
+        <li><strong>タグを含める</strong> - 検索ボックスに入力された検索語と一致し、かつこのタグが付けられている動画のみが検索結果として返されます（単一のタグのみサポートされています）。</li> 
+        <li><strong>タグを除外する</strong> - このタグが付けられている動画は検索結果の一部として返されません（単一のタグのみサポートされています）。</li> 
+        <li><strong>動画セキュリティ</strong>設定の有効化 - 動画セキュリティは動画設定の一部として有効にすることができます。有効にすると、コレクション内の動画のみが検索されます（スマートプレイリストまたはカスタム検索を使用してコレクションに追加された動画のみが検索結果として返されます）。詳細については、<a href="customizing-video-settings-portal-experience.html">ポータル エクスペリエンスの動画設定のカスタマイズ</a>を参照してください。</li> 
     </ul>
-    <aside class="bcls-aside bcls-aside--information">注:コレクションの作成時に複数のビデオソースが使用されている場合、検索はサポートされません。</aside><aside class="bcls-aside bcls-aside--information">注:[ <strong>タグを含める]</strong>と<strong> [</strong>タグを除外] に入力した値は、サイトに追加されたコレクションにも適用されます。</aside>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/node18688-site-search.png" /></figure>
+    <aside class="bcls-aside bcls-aside--information">注：コレクションの作成時に複数の動画ソースが使用されている場合、検索はサポートされません。</aside> 
+    <aside class="bcls-aside bcls-aside--information">注：<strong>タグを含める</strong>と<strong>タグを除外する</strong>に入力された値は、サイトに追加されたすべてのコレクションにも適用されます。</aside> 
+    <aside class="bcls-aside bcls-aside--information">注：タグを含める機能を使用する場合、そのタグを持たない動画は Gallery エクスペリエンスに追加することはできません。</aside> 
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/customizing/node18688-site-search.png" /></figure>
   </section>
+  <section class="bcls-section"> 
+    <h2 id="language">言語設定の構成</h2> 
+    <p><strong>言語</strong>設定は、エクスペリエンスの言語と動画のメタデータおよび音声設定を構成するために使用されます。以下の設定が利用可能です：</p> 
+    <ul> 
+        <li><strong>エクスペリエンス言語</strong> - サイト上の Gallery 固有のテキストを選択した言語に設定します。言語サポートは使用されているテンプレートによって異なります。</li> 
+        <li><strong>メタデータの言語をデフォルトとして使用する</strong> - チェックを入れると、エクスペリエンスに選択された言語と同じ言語の動画メタデータを使用します。詳細については、<a href="using-multi-lingual-metadata.html">多言語メタデータの使用</a>を参照してください。</li> 
+        <li><strong>多言語音声を使用する</strong> - チェックを入れると、エクスペリエンスに選択された言語と一致する動画の音声トラックを使用します。詳細については、<a href="https://studio.support.brightcove.com/media/captions/adding-audio-tracks-videos-using-media-module.html">Media モジュールを使用して動画に音声トラックを追加する</a>を参照してください。</li>
+     </ul> 
+     <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/customizing/node18688-language-settings.png" /></figure> 
+    </section> 
   <section class="bcls-section">
     <h2 id="social">ソーシャル設定の構成</h2>
-    <p><strong></strong>ソーシャル設定を使用すると、視聴者はコンテンツを人気のあるソーシャルメディアサイトに簡単に共有できます。また、視聴者がソーシャルメディアサイトにすばやくアクセスできる方法を提供することもできます。ソーシャル設定の構成については、「<a href="customizing-social-settings-portal-experience.html">ポータルエクスペリエンスのソーシャル設定のカスタマイズ」を参照してください</a>。</p>
+    <p><strong>ソーシャル</strong>設定を使用すると、視聴者はコンテンツを人気のあるソーシャル メディアサイトに簡単に共有することができます。また、視聴者がソーシャル メディアサイトにすばやくアクセスできる方法を提供することもできます。ソーシャル設定の構成については、<a href="customizing-social-settings-portal-experience.html">ポータル エクスペリエンスのソーシャル設定のカスタマイズ</a> を参照してください。</p>
   </section>
   <section class="bcls-section">
     <h2 id="comments">コメントの設定</h2>
-    <p><strong>Comments</strong>設定は、Disqus コミュニティフォーラムを使用してコメントをキャプチャする機能を提供します。コメント設定を構成するには、をクリックします<strong>サイトの機能&gt;コメント</strong>左側のナビゲーションで。</p>
-    <aside class="bcls-aside bcls-aside--information">注:<strong></strong>コメントの設定は、すべてのテンプレートで使用できるわけではありません。</aside>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/node18688-comment-settings.png" /></figure>
-    <p>Disqus の短縮名を入力すると、視聴者はあなたのサイトにコメントを追加できるようになります。</p>
-    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/node13570-disqus.png" /></figure>
-    <p>Disqus の詳細とサイトのショートネームを生成するには、<a href="https://www.disqus.com"> Disqus の Web</a>サイトにアクセスしてください。</p>
+    <p><strong>コメント</strong>設定では、Disqusコミュニティフォーラムを使用してコメントを収集する機能を提供します。コメント設定を構成するには、左側のナビゲーションで<strong>サイト機能 &gt; コメント</strong>をクリックします。</p> 
+    <aside class="bcls-aside bcls-aside--information">注：<strong>コメント</strong>設定はすべてのテンプレートで利用できるわけではありません。</aside> 
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/customizing/node18688-comment-settings.png" /></figure>
+    <p>Disqusのショートネームを入力すると、視聴者はサイトにコメントを追加できるようになります。</p> 
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/experiences/portal/customizing/node13570-disqus.png" /></figure>
+    <p>Disqusについて詳しく学び、サイトのショートネームを生成するには、<a href="https://www.disqus.com">Disqus</a>のウェブサイトをご覧ください。</p> 
   </section>
+  <section class="bcls-section"> 
+    <h2 id="agenda">イベント アジェンダの設定</h2> 
+    <aside class="bcls-aside bcls-aside--information">注: このオプションは Virtual Event エクスペリエンスでのみ利用可能です。</aside> 
+    <p><strong>アジェンダ</strong>リンクをクリックすると、Agenda モジュールが開き、イベント アジェンダとイベント登壇者を作成・管理することができます。詳細については、<a href="/experiences/virtual-event/getting-started/getting-started-agenda-module.html">Agenda モジュールの使用開始</a>を参照してください。</p> 
+</section> 
+<section class="bcls-section"> 
+    <h2 id="sponsors">Virtual Eventスポンサーの設定</h2> 
+    <aside class="bcls-aside bcls-aside--information">注: このオプションはVirtual Event エクスペリエンスでのみ利用可能です。</aside> 
+    <p><strong>スポンサー</strong>設定では、Virtual Event エクスペリエンスのイベントスポンサーを作成・管理する機能を提供します。詳細については、<a href="/experiences/virtual-event/customizing/managing-event-sponsors.html">イベント スポンサーの管理</a>を参照してください。</p> 
+</section> 
 </article> <!-- complete bootstrap layout -->
     </div>
     <div class="col-sm-2 right-side-bar">
